@@ -131,7 +131,7 @@ ImagePicker.clean().then(() => {
 | smartAlbums (ios only)                  | array ([supported values](https://github.com/ivpusic/react-native-image-crop-picker/blob/master/README.md#smart-album-types-ios)) (default ['UserLibrary', 'PhotoStream', 'Panoramas', 'Videos', 'Bursts']) | List of smart albums to choose from      |
 | useFrontCamera                          |           bool (default false)           | Whether to default to the front/'selfie' camera when opened |
 | compressVideoPreset (ios only)          |      string (default MediumQuality)      | Choose which preset will be used for video compression |
-| tintColor (ios only)                     |            string (default none)            | Tint color that will be applied to the QBImagePicker view\n Only supports the '#abcdef' notation of passing color |
+| tintColor (ios only)                     |            string (default none)            | Tint color that will be applied to the QBImagePicker view, only supports the '#abcdef' notation of passing color |
 | compressImageMaxWidth                   |          number (default none)           | Compress image with maximum width        |
 | compressImageMaxHeight                  |          number (default none)           | Compress image with maximum height       |
 | compressImageQuality                    |            number (default 1 (Android)/0.8 (iOS))            | Compress image with quality (from 0 to 1, where 1 is best quality). On iOS, values larger than 0.8 don't produce a noticable quality increase in most images, while a value of 0.8 will reduce the file size by about half or less compared to a value of 1. |
